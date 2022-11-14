@@ -9,5 +9,41 @@
   <body>
     <h1>Register Page</h1>
     <a href="index.html">Home</a>
+    <!-- Use GET not POST.. For now -->
+    <span></span>
+    <div>
+      <form method="GET">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" /><br />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required /><br />
+        Birthday: <input type="date" name="birthday" /><br />
+        Gender:<br />
+        <input type="radio" name="gender" value="Male" /> Male <br />
+        <input type="radio" name="gender" value="Female" /> Female <br />
+        Pets: <br />
+        <input type="checkbox" name="pets" value="dog" /> Dog <br />
+        <input type="checkbox" name="pets" value="cat" /> Cat <br />
+        Cars: <br />
+        <select name="cars" id="cars">
+          <option value="volvo">Volvo</option>
+          <option value="Toyota">Toyota</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
+        <br />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          minlength="5"
+          name="password"
+          id="password"
+        /><br />
+        <label for="password2" minlength="5">Confirm Password</label>
+        <input type="password" name="password2" id="password2" /><br />
+        <input type="submit" value="Register" />
+        <input type="reset" value="Reset" />
+      </form>
+    </div>
   </body>
 </html>
