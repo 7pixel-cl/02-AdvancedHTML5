@@ -5,7 +5,7 @@ Stack:
 
 HTML
 
-You can check the example here: https://7pixel-cl.github.io/01-BasicHTML5/
+You can check the example here: https://7pixel-cl.github.io/02-AdvancedHTML5/
 
 Marco Alvarado.
 
